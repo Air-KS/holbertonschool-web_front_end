@@ -46,15 +46,16 @@ a:link {
   text-decoration: none;
 }
 
-a:hover {
+a:visited {
   text-decoration: italic;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 a:active {
   background-color: var(--color-light-grey);
-}
-a:visited {
-  text-decoration: underline;
 }
 
 .visually-hidden {
