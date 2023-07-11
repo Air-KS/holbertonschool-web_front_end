@@ -54,8 +54,8 @@ a {
 
 .section-tagline {
   color: #d73953;
-  text-transform: var(--section-targeline-transform);
   font-family: var(--font-family-title);
+  text-transform: var(--section-targeline-transform);
   font-weight: var(--font-weight-bold);
 }
 
