@@ -59,7 +59,7 @@ a {
   font-size: var(--font-size-xx-large);
   font-weight: var(--font-weight-bold);
   margin: var(--section-title-margin);
-  color: var(--text-color);
+  color: var(--section-title-color);
 }
 
 .section-tagline {
