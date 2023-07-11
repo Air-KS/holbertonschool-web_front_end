@@ -18,7 +18,7 @@
   --line-height-base: 1.5;
   --line-height-big: 1.8;
   --section-header-align: center;
-  --section-targline-transform: uppercase;
+  --section-tagline-transform: uppercase;
 }
 
 html {
@@ -55,7 +55,7 @@ a {
 .section-tagline {
   color: #d73953;
   font-family: var(--font-family-title);
-  text-transform: var(--section-targline-transform);
+  text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
 }
 
