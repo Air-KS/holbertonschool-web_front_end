@@ -195,10 +195,7 @@ a:active {
 }
 
 .section-hero .section-inner {
-  padding-top: 10rem;
-  padding-right: 40rem;
-  padding-bottom: 2rem;
-  padding-left: 0rem;
+  padding: 10rem 40rem 2rem 0rem;
 }
 
 .section-body {
@@ -208,10 +205,6 @@ a:active {
 .section-header {
   text-align: var(--section-header-align);
   padding: var(--section-header-padding);
-}
-
-.section-body {
-  padding: var(--section-body-padding);
 }
 
 .section-footer {
