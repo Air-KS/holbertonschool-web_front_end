@@ -179,6 +179,12 @@ ul.row {
   padding: var(--footer-padding);
 }
 
+.footer-copyright {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: var(--text-color)
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
