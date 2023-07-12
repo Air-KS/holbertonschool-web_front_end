@@ -203,6 +203,18 @@ a:active {
   padding: var(--section-padding);
 }
 
+.section-hero {
+  background-size: 90rem auto;
+}
+
+.section-hero .section-title {
+  margin-bottom: 5rem;
+}
+
+.section-hero .section-inner {
+  padding: 10rem 40rem 2rem 0;
+}
+
 .section-body {
   padding: var(--section-body-padding);
 }
@@ -210,10 +222,6 @@ a:active {
 .section-header {
   text-align: var(--section-header-align);
   padding: var(--section-header-padding);
-}
-
-.section-body {
-  padding: var(--section-body-padding);
 }
 
 .section-footer {
