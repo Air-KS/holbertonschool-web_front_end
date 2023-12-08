@@ -1,0 +1,8 @@
+// Nested: Write a Sass file that assigns, hover
+button {
+	color: #FF0000; 
+	
+	&:hover {
+		color: #00FF00; 
+	}
+}
