@@ -1,8 +1,13 @@
 //Nested : Write a Sass file that assigns
+@mixin side-margin($size) {
+	margin-left: $size;
+	margin-right: $size;
+}
+
 body {
-	margin: 0 10px 0px 10px
+	@include side-margin(10px);
 }
 
 div {
-	margin: 0 15 0 15;
+	@include side-margin(15px);
 }
