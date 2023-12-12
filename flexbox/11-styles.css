@@ -550,6 +550,12 @@
 
   .hero-article .section-inner {
     text-align: center;
-    padding: 7rem, 0, 0;
+    align-items: center;
+    min-height: 40vh;
+  }
+
+  .hero-article .section-body {
+    position: relative;
+    padding: 7rem 0 0;
     z-index: 2;
   }
