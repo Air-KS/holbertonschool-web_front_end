@@ -561,10 +561,10 @@
   }
 
   .main-article {
-    padding: 5rem;
+    padding: 5rem 0;
   }
 
-  /* Section HERO (article)
+  /* Post
       ============================= */
 
   .post {
