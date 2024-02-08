@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task 2</title>
+</head>
+
+<body>
+  <h1>Login to the website</h1>
+  <input type="text" id="firstname" placeholder="Firstname">
+  <input type="email" id="email" placeholder="Email">
+  <button onclick="setCookies()" id="login-btn">Log me in</button>
+  <h1>Cookies</h1>
+  <button onclick="showCookies()" id="cookie-btn">Show the cookies</button>
+
+  <!-- Javascript -->
+  <script type="application/javascript">
+    function setCookies() {
+      const firstname = document.getElementById('firstname').value;
+      const email = document.getElementById('email').value;
+      const expiration = 10 * 24 * 60 * 60
+
+      document.cookie = `firstname=${firstname}; max-age=${expiration}; path=/`;
+      document.cookie = `email=${email}; max-age=${expiration}; path=/`;
+    }
+
+    function showCookies() {
+      const p = document.createElement('p');
+      const firstname = getCookie('firstname');
+      const email = getCookie('email');
+
+      p.textContent = `Email: ${email} - Firstname: ${firstname}`;
+      document.body.appendChild(p);
+    }
+
+    function getCookie(name) {
+      const cookies = document.cookie.split(';');
+      for (const cookie of cookies) {
+        const [nameCookie, valueCookie] = cookie.trim().split('=');
+        if (nameCookie === name) {
+          return valueCookie;
+        }
+      }
+      return '';
+    }
+  </script>
+
+</body>
+
+</html>
